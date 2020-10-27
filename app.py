@@ -24,6 +24,17 @@ def plot_image(model, x , orig_img):
   st.success("Instance Segmentation Successful!! Plotting Image..")
   st.pyplot(plt.show())
 
+def footer():
+  st.markdown("""
+  * * *
+  Built with ❤️ by [Rehan uddin](https://hardly-human.github.io/)
+  """)
+  st.success("Rehan uddin (Hardly-Human)👋😉")
+
+
+################################################################################
+# main()
+################################################################################
 
 def main():
   
@@ -54,3 +65,4 @@ def main():
 
 if __name__== "__main__":
   main()
+  footer()
