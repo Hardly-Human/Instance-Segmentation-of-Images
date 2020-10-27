@@ -3,6 +3,12 @@ from PIL import Image
 import matplotlib.pyplot as plt
 from gluoncv import model_zoo, data, utils
 
+
+@st.cache
+def load_image(image_file):
+    img = Image.open(image_file)
+    return img
+
 @st.cache(allow_output_mutation=True)
 def load_model(model_name):
 	model = model_zoo.get_model(model_name, pretrained = True)
@@ -55,7 +61,8 @@ def main():
 		rgb_im = image1.convert('RGB') 
 		image = rgb_im.save("saved_image.jpg")
 		image_path = "saved_image.jpg"
-
+		st.image(image1)
+		
 	if st.button("Run Model"):
 		st.warning("Loading Model..🤞")
 		model = load_model('mask_rcnn_resnet50_v1b_coco')
