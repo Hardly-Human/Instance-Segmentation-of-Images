@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# Instance Segmentation of Images
+Using Pre-trained Mask RCNN model for Instance Segmentation.
 
-You can use the [editor on GitHub](https://github.com/Hardly-Human/Instance-Segmentation-of-Images/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### This app has been deployed on Streamlit Sharing.🥳
+ [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/hardly-human/object-detection-with-pre-trained-models/streamlit_deployment/app.py)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Demo Images
+![img1](https://github.com/Hardly-Human/Object-Detection-with-Pre-trained-models/blob/master/img2.png)
+![img2](https://github.com/Hardly-Human/Object-Detection-with-Pre-trained-models/blob/master/img1.png)
+  
 
-### Markdown
+### For Local host.💻
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+`git clone https://github.com/Hardly-Human/Instance-Segmentation-of-Images`
 
-```markdown
-Syntax highlighted code block
+`cd Instance-Segmentation-of-Images`
 
-# Header 1
-## Header 2
-### Header 3
+`pip install -r requirements.txt`
 
-- Bulleted
-- List
+`streamlit run app.py`
 
-1. Numbered
-2. List
+__App opens a window in Default Browser Automatically..__
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Hardly-Human/Instance-Segmentation-of-Images/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
